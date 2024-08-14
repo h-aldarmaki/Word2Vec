@@ -38,3 +38,7 @@ In this model, character sequences are first embedded into fixed-length vectors 
 ### End-to-end model
 
 This model encodes character sequences into a fixed-length vector that is fed directly to SGNS and trained end-to-end. The implementation is in ```sgns_C.py```. Note that the scale of the model (depth and width) can be changed by setting the ```s``` parameter between to a value between 1 and 4 (see paper for additional details)
+
+## Evaluation
+
+To evaluate the resulting embeddings, we compare with gensim embeddings. We provide the evaluation script in ```eval_embeddings.py```. The training scripts also contain the same evaluation steps. 
