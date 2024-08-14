@@ -13,6 +13,8 @@ This repo contains python implementation of word2vec models (skiagram and contin
 }
 ```
 
+The scripts to train models using audio features instead of character sequences are [available here](https://github.com/rainmaker29/SpokenWord2Vec). 
+
 ## Word-Based Models
 
 The following word embedding models are available:
