@@ -1,8 +1,10 @@
 # Word2Vec
 
-<a href='https://arxiv.org/pdf/2311.09319'><img src='https://img.shields.io/badge/paper-Paper-red'></a> 
+
 
 This repo contains python implementation of word2vec models (skiagram and continuous bag-of-words) and character-based variants of skigram. The latter were used in the following paper
+
+<a href='https://arxiv.org/pdf/2311.09319'><img src='https://img.shields.io/badge/paper-Paper-red'></a> 
 
 ```
 @inproceedings{spokenW2V,
