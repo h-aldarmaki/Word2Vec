@@ -33,6 +33,8 @@ Note that while the above models work properly, but may not give optimal results
 
 ## Character-Based Models
 
+![Model](model.png)
+
 Here we have variants of skipgram with negative sampling (SGNS) but with each word broken into a sequence of characters. This is implemented in two ways:
 
 ### Two-Stage model
